@@ -102,9 +102,13 @@ File Abstraction Layer
    This document has been merged into :ref:`TYPO3 Core API <t3coreapi:fal>`
    since core version 9.
 
-Please refer to "Related Links" in the lower left corner of the page for older
-versions
+.. rst-class:: horizbuttons-success-xxl
+
+- :ref:`This manual has moved <t3coreapi:fal>`
+
+*Older versions*
 (`v6.2 </typo3cms/FileAbstractionLayerReference/6.2/>`__,
-`v8.7 </typo3cms/FileAbstractionLayerReference/8.7/>`__).
+`v8.7 </typo3cms/FileAbstractionLayerReference/8.7/>`__):
+Please refer to "Related Links" in the lower left corner of the page.
 
 
