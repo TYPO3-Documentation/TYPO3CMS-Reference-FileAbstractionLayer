@@ -102,7 +102,7 @@ File Abstraction Layer
    This document has been merged into :ref:`TYPO3 Core API <t3coreapi:fal>`
    since core version 9.
 
-.. rst-class:: horizbuttons-success-xxl
+.. rst-class:: horizbuttons-tip-xxl
 
 - :ref:`This manual has moved <t3coreapi:fal>`
 
