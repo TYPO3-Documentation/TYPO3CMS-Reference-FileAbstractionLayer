@@ -1,26 +1,6 @@
 .. include:: Includes.txt
 
-
 .. _start:
-
-======================
-File Abstraction Layer
-======================
-
-.. warning::
-
-    This document has been merged into :ref:`TYPO3 Core API <t3coreapi:fal>` since core version 9.
-
-    If looking for older versions, please refer to core v7 and core v8 of this document by using the
-    version selector in the lower left corner of the online document.
-
-
-**Sitemap:**
-
-.. toctree::
-
-    Targets
-
 
 .. _introduction:
 .. _about:
@@ -111,3 +91,20 @@ File Abstraction Layer
 .. _using-fal-examples-file-folder-get-references:
 .. _using-fal-examples-file-folder-list-files:
 .. _using-fal-examples-collections:
+
+
+======================
+File Abstraction Layer
+======================
+
+.. attention::
+
+   This document has been merged into :ref:`TYPO3 Core API <t3coreapi:fal>`
+   since core version 9.
+
+Please refer to "Related Links" in the lower left corner of the page for older
+versions
+(`v6.2 </typo3cms/FileAbstractionLayerReference/6.2/>`__,
+`v8.7 </typo3cms/FileAbstractionLayerReference/8.7/>`__).
+
+
