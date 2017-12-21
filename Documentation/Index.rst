@@ -11,7 +11,7 @@ File Abstraction Layer
       doc_core_fal
 
 :Version:
-      6.2.0
+      6 LTS (6.2)
 
 :Language:
       en
