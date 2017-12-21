@@ -11,7 +11,7 @@ File Abstraction Layer
       doc_core_fal
 
 :Version:
-      7 LTS
+      8 LTS (8.7)
 
 :Language:
       en
@@ -23,7 +23,7 @@ File Abstraction Layer
       fal, reference, forDevelopers, forAdvanced
 
 :Copyright:
-      2012-2016
+      2012-2018
 
 :Author:
       Documentation Team
