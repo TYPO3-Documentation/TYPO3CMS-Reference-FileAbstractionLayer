@@ -68,10 +68,11 @@ on the Table of Contents to identify what particular section will best
 address the task at hand.
 
 
-**Sitemap:**
 
 .. toctree::
+   :hidden:
 
+   Sitemap/Index
    Introduction/Index
    Concepts/Index
    Architecture/Index
