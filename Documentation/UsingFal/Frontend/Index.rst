@@ -34,7 +34,7 @@ in the :php:`\TYPO3\CMS\Fluid\ViewHelpers\ImageViewHelper`:
 
 .. code-block:: html
 
-	<f:image src="xxx" treatIdAsReference="1" />
+	<f:image image="{image}" />
 
 where :code:`xxx` is the uid of the File Reference.
 
