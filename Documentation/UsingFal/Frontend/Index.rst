@@ -34,9 +34,15 @@ in the :php:`\TYPO3\CMS\Fluid\ViewHelpers\ImageViewHelper`:
 
 .. code-block:: html
 
-	<f:image src="xxx" treatIdAsReference="1" />
+	<f:image image="{image}" />
 
-where :code:`xxx` is the uid of the File Reference.
+Here :code:`{image}` is an object of one of the following types:
+
+* :code:`TYPO3\CMS\Core\Resource\File`
+* :code:`TYPO3\CMS\Core\Resource\FileReference`
+* :code:`TYPO3\CMS\Extbase\Domain\Model\FileReference`
+
+If only the UID of a file reference is available, :code:`src` together with :code:`treatIdAsReference` can be used instead of :code:`image`.
 
 Get File Properties
 ~~~~~~~~~~~~~~~~~~~
