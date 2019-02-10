@@ -8,10 +8,10 @@ TCA definition
 ^^^^^^^^^^^^^^
 
 This chapter explains how to create a field that makes it possible to
-create relations to files.
+create relations to files based on the File Abstraction Layer (FAL).
 
 TYPO3 CMS provides a convenient API for this.
-Let's look at the TCA configuration the "image" field of the "tt\_content"
+Let's look at the TCA configuration of the "image" field of the "tt\_content"
 table for example (with some parts skipped).
 
 .. code-block:: php
@@ -39,7 +39,7 @@ are optional.
 
 A call to :code:`\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig()`
 will generate a standard TCA configuration for an :ref:`inline-type field <t3tca:columns-inline>`,
-with relation to the "sys\_file" table via the "sys\_file\_reference"
+with a relation to the "sys\_file" table via the "sys\_file\_reference"
 table as "MM" table.
 
 The override configuration array (the second argument) can be used to tweak
@@ -52,8 +52,8 @@ of inline-type fields can be used.
    to generate the code in such a case.
 
 
-On the database side, the corresponding field needs just store an integer,
-as is usual for relations field:
+On the database side, the corresponding field needs just to store an integer,
+as it is usual for a relation field:
 
 .. code-block:: sql
 
