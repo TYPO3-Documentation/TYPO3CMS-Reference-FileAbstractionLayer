@@ -1,4 +1,6 @@
-This manual is outdated! The content has been moved to TYPO3 Explained. 
+Has been merged into "TYPO3 Explained" for version 9+. Older branches still online.
+
+https://docs.typo3.org/m/typo3/reference-fal/master/en-us/
 
 Please see:
 
